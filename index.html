@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- home.css -->
+    <link rel="stylesheet" href="css/home.css" />
+    <!-- navbar.css -->
+    <link rel="stylesheet" href="css/navbar.css" />
+    <!-- footer.css -->
+    <link rel="stylesheet" href="css/footer.css" />
+    <!-- slide-up.css -->
+    <link rel="stylesheet" href="css/slide-up.css" />
+    <!-- responsive.css -->
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <title>Home | SUPERSTORE GIANT</title>
+    <link rel="shortcut icon" href="img/Logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav>
+      <!-- Logo -->
+      <a href="#home" class="logo"><img src="img/Logo.png" alt="logoku" /> </a>
+      <!-- Menu -->
+      <div class="nav-menu">
+        <ul>
+          <li><a href="#home" id="active">Home</a></li>
+          <li><a href="dashboard.html" id="active">Dashboard</a></li>
+          <li><a href="about.html" id="active">About Us</a></li>
+          <!-- <li>
+          <a href="kontak-kami.html" class="kontak-kami" id="active">Kontak Kami</a>
+        </li> -->
+        </ul>
+      </div>
+
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Start -->
+    <div class="hero" id="home">
+      <h3>
+        Turn your data into <br />
+        meaningful narratives
+      </h3>
+      <div class="pay-attention">
+        <h5>
+          Pay attention to the overall data analysis
+          <br />
+          presented by the Superstore company.
+        </h5>
+      </div>
+      <div class="btn-seemore">
+        <a href="dashboard.html">
+          <button class="see-more">Get Started</button>
+        </a>
+      </div>
+    </div>
+    <!-- Hero End -->
+
+    <!-- About Start -->
+    <div class="about-container" id="about">
+      <div class="what-is-superstore-giant">
+        <h3>What is Superstore Giant?</h3>
+        <p>
+          is a large retail company that offers a wide range of products, including electronics, furniture, household appliances, clothing, and groceries. Superstore Giant can display statistics about their business performance, such as
+          number of sales, number of customers, and number of products in stock.
+        </p>
+      </div>
+      <div class="why-we-created-this-website">
+        <h3>What is the purpose of creating this website??</h3>
+        <p>
+          developed an analysis website for Superstore Giant which can display data visualization analysis using the Root Cause Issue Tree hypothesis method. This aims to help Superstore Giant identify less profitable product areas,
+          regions, categories and customer segments more effectively.
+        </p>
+      </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Timeline Start -->
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="footer">
+        <div class="footer-container">
+          <div class="footer-left">
+            <div class="footer-logo">
+              <img src="img/Logo.png" alt="footer-logo" />
+            </div>
+
+            <div class="contact-info-footer">
+              <div class="jdl-contact-info">
+                <h3></h3>
+              </div>
+              <div class="content-contact">
+                <div class="content-contact-alamat">
+                  <img src="assets/Address.png" alt="location" />
+                  <p>425 Westwood Plaza, Westwood, Los Angeles, CA 90095, United States</p>
+                </div>
+                <div class="content-contact-telp">
+                  <img src="assets/Phone.png" alt="telp" />
+                  <p>(1234) 483762</p>
+                </div>
+                <div class="content-contact-email">
+                  <img src="assets/Letter.png" alt="email" />
+                  <p>sec.palembangteam16.tarevou@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-center">
+            <p>Social Media</p>
+            <div class="social-media">
+              <div class="ig">
+                <a href="#" target="_blank"><img src="assets/ig.png" alt="" /></a>
+              </div>
+              <div class="in">
+                <a href="#" target="_blank"><img src="assets/in.png" alt="" /></a>
+              </div>
+              <div class="fb">
+                <a href="#" target="_blank"><img src="assets/fb.png" alt="" /></a>
+              </div>
+              <div class="yt">
+                <a href="#" target="_blank"><img src="assets/yt.png" alt="" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Scroll On Top Start -->
+    <!-- <button id="scroll-top-button" onclick="scrollToTop()">
+      <img src="assets/slide-up.png" alt="up" />
+    </button> -->
+    <!-- Scroll On Top End -->
+
+    <!-- Script Scroll Top Start -->
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+
+    <script src="js/navbar.js"></script>
+
+    <script>
+      const scrollToTopButton = document.getElementById("scroll-top-button");
+
+      window.addEventListener("scroll", () => {
+        if (window.pageYOffset > 100) {
+          scrollToTopButton.style.display = "block";
+        } else {
+          scrollToTopButton.style.display = "none";
+        }
+      });
+
+      scrollToTopButton.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    </script>
+    <!-- Script Scroll Top End -->
+  </body>
+</html>

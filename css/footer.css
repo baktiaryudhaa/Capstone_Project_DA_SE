@@ -1,0 +1,88 @@
+/* Footer Start */
+footer {
+  background: linear-gradient(
+    180deg,
+    rgba(148, 137, 121, 1) 0%,
+    rgba(191, 178, 158, 1) 51.499998569488525%,
+    rgba(223, 208, 184, 1) 100%
+    
+  );
+  height: auto;
+  padding: 30px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  /* position: fixed; */
+}
+
+.footer-container {
+  display: flex;
+  width: 100%;
+}
+
+.footer-left {
+  width: 100%;
+  margin-right: 90px;
+  /* float: left; */
+}
+
+.footer-left .footer-logo img{
+  width: 180px;
+}
+
+/* .content-contact {
+  display: flex;
+} */
+
+.content-contact-alamat,
+.content-contact-telp,
+.content-contact-email
+{
+  display: flex;
+  padding-top: 20px;
+  margin-right: 30px;
+  color: #153448;
+}
+
+.content-contact-alamat img,
+.content-contact-telp img,
+.content-contact-email img{
+  height: 25px;
+}
+
+.content-contact-alamat p,
+.content-contact-telp p,
+.content-contact-email p {
+  padding-left: 10px;
+  margin-right: 300px;
+}
+
+.footer-center {
+  margin-top: 100px;
+  text-align: center;
+  margin-left: -300px;
+}
+
+.footer-center p {
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+.social-media {
+  display: flex;
+  justify-content: right;
+  padding-top: 10px;
+}
+.social-media img {
+  height: 30px;
+}
+
+.social-media .in,
+.social-media .fb,
+.social-media .yt {
+  padding-left: 10px;
+}
+
+.footer-right {
+  margin-left: 200px;
+}
+/* Footer End */
